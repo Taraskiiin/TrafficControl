@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes carLeftToRight {
+  0% {
+    left: -300%;
+  }
+  100% {
+    left: calc(100vw - (100vw - 100%) + 20px);
+  }
+}
+@keyframes carRightToLeft {
+  0% {
+    left: calc(100vw - (100vw - 100%) + 20px);
+  }
+  100% {
+    left: -300%;
+  }
+}
